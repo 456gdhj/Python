@@ -1,11 +1,11 @@
-#f=open("E:\Machine Learning\demo.txt","a")
+f=open("E:\Machine Learning\demo.txt","a")  #Append text
 
-#f.write("\ni wanted to learn javascript")
-#f.close()
+f.write("\ni wanted to learn javascript")
+f.close()
 
-#f=open("E:\Machine Learning\demo.txt","w")
-#f.write("I am a good boy")
-#f.close()
+f=open("E:\Machine Learning\demo.txt","w")  #Overwrite file
+f.write("I am a good boy")
+f.close()
 
-import os
+import os                                   #Delete file
 os.remove("E:\Machine Learning\demo.txt")
